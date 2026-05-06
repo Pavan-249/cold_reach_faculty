@@ -1,0 +1,13 @@
+# agent.yaml
+name: ColdMailFaculty
+model: gemini-flash-latest
+agents:
+  - name: Scout
+    tools: [browser]
+    instructions: "Visit faculty pages, open profiles, and extract research bios into CSVs under data/."
+  - name: Architect
+    tools: [code_editor]
+    instructions: "Compare bio text against the two resume PDFs in resume/; pick Data Scientist vs Data Engineering per professor."
+  - name: Ghostwriter
+    tools: [gmail]
+    instructions: "Draft outreach emails, send via Gmail API, and avoid duplicates using data/sent_log.csv."
