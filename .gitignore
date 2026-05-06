@@ -18,17 +18,11 @@ venv/
 # Resumes (add your PDFs under resume/ locally)
 resume/
 
-# Scraped faculty dumps (generate locally with scout/*.py)
-data/*_faculty_all.csv
-
-# Private outreach state and logs
-data/sent_log.csv
-data/failed_outreach.csv
-data/outreach_tracking.csv
-data/outreach_results_*.json
-data/resumes_extracted.json
-data/resume_paths.json
-data/outreach_cron.log
+# Local data only: do not commit faculty dumps, logs, or pipeline outputs
+# Markdown notes (e.g. data/README.md) stay tracked.
+data/**/*.csv
+data/**/*.json
+data/**/*.log
 
 # Generated email drafts (may contain personal text)
 output/
