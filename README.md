@@ -1,4 +1,4 @@
-# coldmail_faculty
+# cold_reach_faculty
 
 Toolkit to scrape faculty listings, draft personalized cold emails with Gemini, send through Gmail, and optionally sync inbox replies into a tracking CSV. The codebase was built around University of Washington department pages, but you can adapt the scout scripts and CSV columns to your school.
 

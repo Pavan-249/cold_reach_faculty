@@ -6,7 +6,7 @@
     <string>com.user.outreach</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/ABSOLUTE/PATH/TO/coldmail_faculty/run_daily_outreach.sh</string>
+        <string>/ABSOLUTE/PATH/TO/cold_reach_faculty/run_daily_outreach.sh</string>
     </array>
     <key>StartCalendarInterval</key>
     <dict>
@@ -16,8 +16,8 @@
         <integer>0</integer>
     </dict>
     <key>StandardOutPath</key>
-    <string>/ABSOLUTE/PATH/TO/coldmail_faculty/data/outreach_cron.log</string>
+    <string>/ABSOLUTE/PATH/TO/cold_reach_faculty/data/outreach_cron.log</string>
     <key>StandardErrorPath</key>
-    <string>/ABSOLUTE/PATH/TO/coldmail_faculty/data/outreach_cron.log</string>
+    <string>/ABSOLUTE/PATH/TO/cold_reach_faculty/data/outreach_cron.log</string>
 </dict>
 </plist>
